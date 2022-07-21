@@ -7,5 +7,17 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+
+  let pronoun = ["the", "Our"];
+  let adjetive = ["great", "big"];
+  let noun = ["jogger", "racoon"];
+
+  for (let i = 0; i < pronoun.length; i++) {
+    for (let j = 0; j < adjetive.length; j++) {
+      for (let k = 0; k < noun.length; k++) {
+        let nombredom = pronoun[i] + adjetive[j] + noun[k] + ".com";
+        console.log(nombredom);
+      }
+    }
+  }
 };
